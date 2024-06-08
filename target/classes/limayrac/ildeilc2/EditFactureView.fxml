@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="limayrac.ildeilc2.controleur.EditFactureController">
+    <Label text="Gestion des Factures" />
+    <TableView fx:id="invoiceTable">
+        <columns>
+            <TableColumn fx:id="invoiceNumberCol" text="Numéro Facture" />
+            <TableColumn fx:id="invoiceStatusCol" text="Statut" />
+        </columns>
+    </TableView>
+    <Button text="Marquer comme Payé" onAction="#handleMarkAsPaid"/>
+</VBox>

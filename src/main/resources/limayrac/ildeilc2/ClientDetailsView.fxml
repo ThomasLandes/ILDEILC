@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="limayrac.ildeilc2.controleur.ClientDetailsController">
+    <TableView fx:id="orderTable">
+        <columns>
+            <TableColumn fx:id="numCol" text="Numéro Commande" />
+            <TableColumn fx:id="statusCol" text="Statut" />
+            <TableColumn fx:id="productCol" text="Produit" />
+            <TableColumn fx:id="qtyCol" text="Quantité" />
+            <TableColumn fx:id="invoiceCol" text="Numéro Facture" />
+            <TableColumn fx:id="invoiceStatusCol" text="Statut Facture" />
+            <TableColumn fx:id="deliveryCol" text="Bon de Livraison" />
+        </columns>
+    </TableView>
+</VBox>

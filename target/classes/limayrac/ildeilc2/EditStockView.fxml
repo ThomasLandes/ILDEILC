@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="limayrac.ildeilc2.controleur.EditStockController">
+    <Label text="Modification du Stock" />
+    <TableView fx:id="productTable">
+        <columns>
+            <TableColumn fx:id="productNameCol" text="Produit" />
+            <TableColumn fx:id="productStockCol" text="Stock" />
+        </columns>
+    </TableView>
+    <Button text="Modifier le Stock" onAction="#handleEditStock"/>
+</VBox>
